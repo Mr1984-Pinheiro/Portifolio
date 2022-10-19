@@ -103,3 +103,25 @@ section#inicio {
     width: 100%;
     height: 100vh;
 }
+
+section#inicio h2{
+    font-size: 3rem;
+}
+
+section#inicio span#subtitle {
+    margin-right: 1.4rem;
+    font-size: 1.1rem;
+}
+
+.text-shadow {
+    text-shadow: 4px 4px 10px #000000;
+}
+
+section#inicio div#arraste {
+    width: 9rem;
+}
+
+section#inicio div#arraste a {
+    text-decoration: none;
+    color: #fff;
+}
