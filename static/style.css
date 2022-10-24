@@ -198,3 +198,10 @@ i.menu-mobile {
 .section-bg {
     background-color: #eff5ff;
 }
+
+.cv .cv-title {
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+}
