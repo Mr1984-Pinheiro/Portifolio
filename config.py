@@ -1,2 +1,2 @@
-email = 'devcrer.rm122@gmail.com'
-senha = '<cetp0105/>'
+mail = 'devcrer.rm122@gmail.com'
+senha = 'yoxlkwrfxnqghhye'
