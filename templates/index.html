@@ -131,7 +131,7 @@
                       </ul>
                     </div>
                     <p class="mt-3">Entusiasta da tecnologia, acredito que através da educação podemos transformar a realidade social e econômica do ser humano. Ao me consolidar na carreira sonho a longo prazo ser especialista em engenharia de software frontend. Anseio também,
-                       investir no ensino de programação web com qualidade e acessível para todas as pessoas</p>
+                       investir no ensino de programação web com qualidade e acessível para todas as pessoas.</p>
                   </div>
               </div>
           </div>
@@ -711,6 +711,21 @@
         </div>
 
       </section>
+
+          {% with messages = get_flashed_messages() %}
+          {% if messages %}
+          {% for message in messages %}
+        <div id="alerta" class="alert alert-success alert-dismissible fade show" role="alert">
+                <i class="bi bi-check-circle-fill" ></i>
+                {{ message }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"
+                    aria-label="Close" >
+                    </button>        
+          </div>
+          {% endfor %}
+          {% endif %}
+          {% endwith %}        
+          
     
     </main>
 
