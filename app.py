@@ -60,7 +60,7 @@ def send():
             s.starttls()
             # Login Credentials for sending the mail
             s.login(msg['From'], password)
-            s.sendmail(msg['From'] + [msg['To']] + msg.as_string().encode('utf-8'))
+            #s.sendmail(msg['From'], [msg['To']], msg.as_string().encode('utf-8'))
             
             send()
 

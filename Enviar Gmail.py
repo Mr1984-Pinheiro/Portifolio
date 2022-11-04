@@ -3,21 +3,23 @@
 
 # In[ ]:
 
+from config import mail, senha
+
 
 import smtplib
 import email.message
 
 def enviar_email():  
     corpo_email = """
-    <p>Parágrafo1</p>
+    <h1>Parágrafo1</h1>
     <p>Parágrafo2</p>
     """
 
     msg = email.message.Message()
     msg['Subject'] = "Assunto"
-    msg['From'] = 'remetente'
-    msg['To'] = 'destinatario'
-    password = 'senha' 
+    msg['From'] = mail
+    msg['To'] = mail
+    password = senha 
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(corpo_email )
 
