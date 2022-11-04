@@ -49,16 +49,16 @@ window.addEventListener('scroll', () => {
 
 // Ativar carregamento no botão de enviar formulario para 
 
-const btnEnviar = document.querySelector("#btn-enviar")
+/*const btnEnviar = document.querySelector("#btn-enviar")
 const btnEnviarLoader = document.querySelector("#btn-enviar-loader")
 
 btnEnviar.addEventListener('click', () => {
     btnEnviarLoader.style.display = "block";
     btnEnviar.style.display = "none"
-})
+})*/
 
 //Tirar a mensagem de sucesso depois de 5 segundos
 
-setTimeout(() => {
+/*setTimeout(() => {
    document.querySelector('#alerta').style.display = 'none' 
-}, 5000 );
+}, 5000 );*/
